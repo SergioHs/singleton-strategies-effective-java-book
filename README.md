@@ -13,11 +13,11 @@ Tópicos abordados e exerctados no item do livro:
   - Serializable com readResolve() — preserva a propriedade de singleton após desserialização.
 
 Arquivos de exemplo neste projeto (src/main/java/com/singleton/singleton):
-- ElvisField.java        — singleton com campo público final
-- ElvisFactory.java      — singleton com factory estática (getInstance)
-- ElvisEnum.java         — singleton com enum (abordagem preferida)
-- ElvisSerialized.java   — singleton serializável com readResolve()
-- SingletonApplication.java — demonstração de uso e teste rápido de desserialização
+- [ElvisField.java](https://github.com/SergioHs/singleton-strategies-effective-java-book/blob/main/src/main/java/com/singleton/singleton/ElvisField.java)        — singleton com campo público final
+- [ElvisFactory.java](https://github.com/SergioHs/singleton-strategies-effective-java-book/blob/main/src/main/java/com/singleton/singleton/ElvisFactory.java)      — singleton com factory estática (getInstance)
+- [ElvisEnum.java](https://github.com/SergioHs/singleton-strategies-effective-java-book/blob/main/src/main/java/com/singleton/singleton/ElvisEnum.java)         — singleton com enum (abordagem preferida)
+- [ElvisSerialized.java](https://github.com/SergioHs/singleton-strategies-effective-java-book/blob/main/src/main/java/com/singleton/singleton/ElvisSerialized.java)   — singleton serializável com readResolve()
+- [SingletonApplication.java](https://github.com/SergioHs/singleton-strategies-effective-java-book/blob/main/src/main/java/com/singleton/singleton/SingletonApplication.java) — demonstração de uso e teste rápido de desserialização
 
 Observações rápidas:
 - Singletons dificultam testes (difícil substituição por mocks) — usar interfaces quando necessário.
