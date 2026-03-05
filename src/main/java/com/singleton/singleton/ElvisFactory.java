@@ -6,7 +6,6 @@ package com.singleton.singleton;
 // - construtor privado para impedir instanciação externa
 // - método público estático getInstance() expõe a instância (factory estática)
 // Vantagens: permite alterar a estratégia de instanciação sem mudar a API
-
 public class ElvisFactory {
     private static final ElvisFactory INSTANCE = new ElvisFactory();
 

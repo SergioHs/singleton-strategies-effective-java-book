@@ -12,7 +12,6 @@ public class SingletonApplication {
 		SpringApplication.run(SingletonApplication.class, args);
 
 		// Demonstração de uso das diferentes implementações de singleton
-
 		// Chama o singleton implementado com campo público final (ElvisField)
 		ElvisField.INSTANCE.leaveTheBuilding();
 
